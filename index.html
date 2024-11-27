@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Linktree Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main class="main">
+        <section class="s1">
+            <img src="mehar.jpg" alt="profile picture" class="profile-picture">
+            <p><i>This page is property of Syed Mehar Ali Kirmani, and all rights are reserved.</i></p>
+        </section>
+
+        <section class="s2">
+            <ul id="linkList">
+                <li><a href="https://www.squarespace.com/websites/create-a-blog" target="_blank">Check my blog</a></li>
+                <li><a href="https://www.youtube.com/watch?v=PL3Odw-k8W4" target="_blank">The CSS trick you missed</a></li>
+                <li><a href="https://dev.to/elliot_brenya/7-god-mode-javascript-projects-for-beginners-source-codes-3gd" target="_blank">JS god-like mode</a></li>
+            </ul>
+
+            <!-- Add Link Form -->
+            <div class="link-control">
+                <input type="text" id="linkName" placeholder="Link Name" required>
+                <input type="url" id="linkURL" placeholder="Link URL" required>
+                <button onclick="addLink()">Add Link</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="f1">
+        <div>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://x.com/?lang=en" class="fa fa-twitter"></a>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
